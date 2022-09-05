@@ -28,6 +28,10 @@ body{
     background-color: #ffffff;
 }
 
+h1{
+    font-size: 35px;
+}
+
 .hero{
     background-image: url('../img/jumbo.png');
     background-size: cover;
@@ -65,6 +69,10 @@ header nav.container{
     padding: 10px 0;
 }
 
+ul li a {
+    color: #ffffff;
+}
+
 li{
     list-style: none;
 }
@@ -86,16 +94,43 @@ footer{
     max-width: 40%;
     line-height: 30px;
     padding-top: 50px;
+    color: #ffffff;
 }
 
 #btndue{
     color: #ffffff;
     background-color: #23272a;
+   
 
 }
 
-.arrow{
+#btnlogin{
+    padding: 8px;
+}
 
+section.bottom{
+    text-align: center;
 
+}
 
+#download{
+    background-color: purple;
+    color: #ffffff;
+    line-height: ;
+    
+}
+
+.testouno{
+    
+    width: 650px;
+    
+    
+    
+}
+
+.flexmain_col{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
 }
