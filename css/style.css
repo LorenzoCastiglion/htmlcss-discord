@@ -46,7 +46,11 @@ h2{
 .container{
     max-width: 1170px;
     margin: 0 auto;
+    min-width: 1170px;
+}
 
+p{
+    font-size: 12px;
 }
 
 .bg-grey{
@@ -54,13 +58,21 @@ h2{
     padding: 80px 0;
 }
 
-.btn{
+#btntopdue{
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: #23272a;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+#btntop{
+    color: #23272a;
     border-radius: 20px;
     padding: 12px;
     background-color: #ffffff;
-    color: black;
     vertical-align: middle;
-    
+    margin-right: 20px;
 }
 
 .mainimg{
@@ -115,6 +127,11 @@ footer{
 }
 
 #btnlogin{
+    color: #23272a;
+    border-radius: 20px;
+  
+    background-color:#ffffff;
+    vertical-align: middle;
     padding: 8px;
 }
 
@@ -124,16 +141,18 @@ footer{
     width: 370px;
     height: 36px;
     padding: 17px 30px;
+    font-size: 20px;
 }
 
-#download{
+#downloadbtn{
     background-color: purple;
     color: #ffffff;
     margin: 50px 0;
-    
-    
-    
+    border-radius: 20px;
+    padding: 8px;    
 }
+
+
 
 .testomain{
     
@@ -148,9 +167,7 @@ footer{
 }
 
 .testomainbottom{
-    
     width: 750px;
-    margin-left: 100px;
 }
 
 .flexmain{
@@ -167,25 +184,70 @@ footer{
     align-items: center;   
     text-align: center;
 }
+/* fine main */
 
+/* footer start */
+
+footer{
+    width: 100%;
+    min-height: 100px;
+}
+
+li h3{
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #5865f2;
+    line-height: 30px;
+
+}
+
+li h4{
+    padding-bottom: 10px;
+    color: #5865f2;
+   
+}
+
+li img{
+    width: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.flexfooter{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+li{
+    font-size: 12px;
+    padding-right: 10px 0;
+    line-height: 20px;
+}
 
 hr{
+    width: 100%;
+    background-color: #5865f2;
     margin: 30px 0;
+    border: 1px solid #5865f2;;
 }
 
-.btm{
+.btnfoot{
+    color: #ffffff;
+    background-color: #5865f2;
     padding-top: 50px;
+    border-radius: 20px;
+    padding: 12px;
 }
 
-.foot{
-    line-height: 40px;
-}
 
-.italia{
-    width: 15px;
-    height: 10px;
-}
 
 .fa-brands{
+    padding-top: 20px;
     margin-right: 20px;
 }
