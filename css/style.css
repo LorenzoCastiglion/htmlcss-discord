@@ -9,7 +9,6 @@
 }
 
 
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -17,6 +16,11 @@
   }
 
 /* styles */
+
+.debug{
+    margin: 50px 0;
+}
+
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +51,7 @@ h2{
 
 .bg-grey{
     background-color: bisque;
+    padding: 80px 0;
 }
 
 .btn{
@@ -58,6 +63,9 @@ h2{
     
 }
 
+.mainimg{
+    height: 300px;
+}
 
 
 header nav ul{
@@ -91,7 +99,7 @@ footer{
 }
 
 .inner-hero{
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center;
     max-width: 40%;
     line-height: 30px;
@@ -110,11 +118,19 @@ footer{
     padding: 8px;
 }
 
-
+#avventura{
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    width: 370px;
+    height: 36px;
+    padding: 17px 30px;
+}
 
 #download{
     background-color: purple;
     color: #ffffff;
+    margin: 50px 0;
+    
     
     
 }
@@ -168,4 +184,8 @@ hr{
 .italia{
     width: 15px;
     height: 10px;
+}
+
+.fa-brands{
+    margin-right: 20px;
 }
