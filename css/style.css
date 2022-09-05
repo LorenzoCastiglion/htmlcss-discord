@@ -79,6 +79,8 @@ li{
 
 footer{
     background-color:#23272a;
+    color: #ffffff;
+    padding: 30px;
 }
 
 .flex-box{
@@ -113,7 +115,7 @@ footer{
 #download{
     background-color: purple;
     color: #ffffff;
-    line-height: ;
+    
     
 }
 
@@ -148,4 +150,22 @@ footer{
     justify-content: space-around;
     align-items: center;   
     text-align: center;
+}
+
+
+hr{
+    margin: 30px 0;
+}
+
+.btm{
+    padding-top: 50px;
+}
+
+.foot{
+    line-height: 40px;
+}
+
+.italia{
+    width: 15px;
+    height: 10px;
 }
