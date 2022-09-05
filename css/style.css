@@ -8,11 +8,7 @@
     /* color: white; */
 }
 
-.debug{
-    border: 1px solid black;
-    min-height: 200px;
-   
-}
+
 
 .clearfix::after {
     content: "";
@@ -30,6 +26,10 @@ body{
 
 h1{
     font-size: 35px;
+}
+
+h2{
+    font-size: 30px;
 }
 
 .hero{
@@ -108,10 +108,7 @@ footer{
     padding: 8px;
 }
 
-section.bottom{
-    text-align: center;
 
-}
 
 #download{
     background-color: purple;
@@ -120,17 +117,35 @@ section.bottom{
     
 }
 
-.testouno{
+.testomain{
     
-    width: 650px;
-    
-    
-    
+    width: 250px;
+    margin-right: 100px;
 }
 
-.flexmain_col{
+.testomainright{
+    
+    width: 250px;
+    margin-left: 100px;
+}
+
+.testomainbottom{
+    
+    width: 750px;
+    margin-left: 100px;
+}
+
+.flexmain{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.flexbottom{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;   
+    text-align: center;
 }
