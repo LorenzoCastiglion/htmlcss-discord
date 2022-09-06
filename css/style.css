@@ -68,6 +68,7 @@ header nav ul li a {
 
 #accedi:hover{
     color: var(--txtblue);
+    text-decoration: none;
 }
 
 a:hover{
@@ -109,6 +110,7 @@ h1{
 
 #btn-mac:hover{
     color: var(--txtblue);
+    text-decoration: none;
 }
 
 #btn-mac{
@@ -118,6 +120,7 @@ h1{
 
 .btn-darkgray:hover{
     box-shadow: 0 0 30px 2px #23272A;
+    text-decoration: none;
 }
 
 .btn-darkgray{

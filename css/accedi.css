@@ -1,0 +1,34 @@
+:root{
+    --grey: #23272A;
+    --light-grey:  #F6F6F6;
+    --txtblue:  #5865f2;
+    --blue: #255ee9;
+
+ }
+
+
+/* utilities */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/img_2/sfondo.svg);
+    background-size: cover;
+    padding-top: 30vh;
+}
+
+.container_box{
+    display: block;
+    width: 46%;
+    height: 58%;
+    background-color: var(--grey);
+    margin: 0 auto ;
+    border-radius: 8px;
+
+}
