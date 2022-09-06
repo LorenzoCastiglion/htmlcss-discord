@@ -200,6 +200,13 @@ svg{
     color: var(--light-grey);
 }
 
+.main-col{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
 .txt-col h2{
     font-size: 40px;
     margin-bottom: 10px;
@@ -210,7 +217,9 @@ svg{
     line-height: 1.8;
 }
 
-.col div#stars {
+
+
+.main-col div#stars {
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -224,6 +233,101 @@ svg{
    color: white;
 }
 
-.col{
+.main-col{
     padding-bottom: 50px;
+}
+
+#btn-mac-down:hover{
+    box-shadow: 0 0 30px 2px #23272A;
+    text-decoration: none;
+}
+
+/* main end */
+
+/* footer start */
+
+footer {
+    background-color: #23272A;
+    color: white;
+    padding: 50px;
+    display: block;
+}
+
+
+
+.foot-flex {
+    display: flex;
+    border-bottom: 1px solid #3b4661;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.footer-nav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+   
+}
+
+.col {
+    width: 17.5%;
+    line-height: 1.7;
+}
+
+.foot-flex > :first-child {
+    width: 30%;
+    padding-right: 80px;
+}
+
+footer > :last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+#registrati{
+    background-color: #255ee9;
+
+}
+
+#registrati:hover{
+    box-shadow: 0 0 10px 1px #f1f3f4;
+    text-decoration: none;
+}
+
+footer h4{
+    color: #5865f2;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+footer h3{
+    color: #5865f2;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.flag{
+    width: 15px;
+}
+
+.social{
+    margin-top: 15px;
+    
+}
+
+.fa-brands{
+    padding-inline-end: 10px;
 }
