@@ -196,8 +196,18 @@ svg{
 }
 
 .bkg-wave-down{
+    height: 100px;
+    background-image: url('../img/wave.svg');
     transform: rotate(180deg);
-    color: var(--light-grey);
+    filter: opacity(0.03);
+    
+}
+
+.bkg-wave-bassa{
+    height: 100px;
+    background-image: url('../img/wave.svg');
+    filter: opacity(0.03);
+    
 }
 
 .main-col{
