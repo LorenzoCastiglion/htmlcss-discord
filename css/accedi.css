@@ -127,11 +127,16 @@ h4{
     color: rgb(182, 180, 180);
 }
 
+a{
+    text-decoration: none;
+}
+
 .txt-blu{
     text-transform: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     color: dodgerblue;
+    text-decoration: none;
 }
 
 .txt-blu:hover{
