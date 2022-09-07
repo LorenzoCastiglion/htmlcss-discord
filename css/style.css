@@ -241,6 +241,10 @@ svg{
     margin-bottom: 15px;
 }
 
+#avventura{
+    padding-top: 25px;
+}
+
 #btn-mac-down{
    background-color: var(--txtblue);
    color: white;
