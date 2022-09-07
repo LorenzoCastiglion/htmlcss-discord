@@ -36,7 +36,7 @@ body{
     background-color: #255ee9;
     height: 60px;
     position: fixed;
-    top: 16px;
+    top: 0;
     padding-top: 15px;
 }
 
@@ -85,7 +85,7 @@ header nav ul li a {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    min-width: 500px;
+    min-width: 800px;
     padding-inline-end: 30px;
     text-decoration: none;
 }
