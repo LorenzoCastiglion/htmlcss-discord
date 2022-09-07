@@ -31,6 +31,36 @@ body{
 }
 /* header    */
 
+.nav-container{
+    width: 100%;
+    background-color: #255ee9;
+    height: 60px;
+    position: fixed;
+    top: 16px;
+    padding-top: 15px;
+}
+
+.finestra{
+    background-color:var(--txtblue);
+    color: white;
+    border-radius: 5px;
+    display:none;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    z-index: 1;
+}
+
+.wop{
+    position: relative;
+}
+
+.wop:hover .finestra{
+    display: block;
+    
+}
+
+
 header{
     background-image: url('../img/jumbo.png');
     height: 480px;
