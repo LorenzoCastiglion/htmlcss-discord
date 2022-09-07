@@ -29,6 +29,7 @@ body{
     font-family:  Helvetica, Arial, sans-serif;
     background-color: white;
 }
+/* header    */
 
 header{
     background-image: url('../img/jumbo.png');
@@ -128,7 +129,9 @@ h1{
     background-color:#23272A ;
 }
 
-/* css main section */
+/* header end */
+
+/* main section start */
 
 main{
     margin: 0 auto;
@@ -230,8 +233,6 @@ svg{
     line-height: 1.8;
 }
 
-
-
 .main-col div#stars {
     background-image: url(../img/stars.svg);
     background-size: contain;
@@ -259,7 +260,7 @@ svg{
     text-decoration: none;
 }
 
-/* main end */
+/* main section end */
 
 /* footer start */
 
@@ -348,3 +349,5 @@ footer h3{
 .fa-brands{
     padding-inline-end: 10px;
 }
+
+/* footer end */
